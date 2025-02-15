@@ -8,7 +8,7 @@ export default function Carta({ imagen, title, price }) {
     return (
         <div className="w [30%] p-4 bg-gray-200 m-4 rounded-lg shadow-md text-center">
             <Image className="w [40%] " src={imagen} width={200} height={200} alt="product" />
-            <h2>{title}</h2>
+            {/* <h2>{title}</h2> */}
             <p className="text bg-green-400 font-bold text-2xl">
                 ${price}
             </p>
